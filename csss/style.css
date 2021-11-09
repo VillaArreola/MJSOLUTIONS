@@ -1,0 +1,138 @@
+
+.container-bg{
+  background: linear-gradient(rgba(46, 44, 44, 0.664), rgba(117, 105, 103, 0)), url("../img/bg-min.jpg") fixed center center;
+  background-size: cover;
+  padding: 15px 0 30px 0;
+  width: 100%;
+ 
+
+
+}
+
+
+.container-sl{
+  
+
+width: 80%;
+
+
+margin: auto;
+
+}
+
+
+
+ .container-sl a img{
+  width: 100%;
+  border-radius: 30px;
+  height: 80vh;
+
+ 
+
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  .container-sl a img{
+
+    border-radius: 15px;
+    height:25vh ;
+   
+  
+  }
+  
+#btn-ub {
+  display: none;
+  float: right;
+  margin-bottom: 0;
+  
+  
+  }
+ 
+
+}
+
+
+
+#btn-ub {
+
+float: right;
+margin-bottom: 0;
+
+
+}
+
+
+
+
+
+
+
+
+/* ===========================
+--- Intro
+============================ */
+
+.intro {
+	width:100%;
+	position:relative;
+	padding:0;
+ 
+ 
+}
+.intro-inner {
+	width:100%;
+	position:relative;
+	padding:120px 0 20px;
+  
+  
+}
+
+.brand-heading {
+    font-size: 40px;
+    
+}
+
+.intro-text {
+    font-size: 18px;
+}
+
+/* ====  slider ==== */
+.sy-caption-wrap {
+  position: absolute;
+  bottom: 2em;
+  top: 35%;
+  z-index: 12;
+  left: 50%;
+}
+
+
+.sy-caption-wrap .sy-caption {
+  position: relative;
+  left: -50%;
+  background-color: transparent;
+  color: #fff;
+  text-shadow: -1px 0 1px #111;
+  font-size: 46px;
+  text-transform: uppercase;
+  line-height: 1.1em;
+  text-align: center;
+  font-weight: 900;
+  padding: 0;
+  -webkit-border-radius: 1.2em;
+  -moz-border-radius: 1.2em;
+  -ms-border-radius: 1.2em;
+  -o-border-radius: 1.2em;
+  border-radius: 1.2em;
+}
+.sy-caption-wrap .sy-caption a {
+	margin-top: 30px;
+}
+.sy-slide div a.slide-btn {
+	
+	margin-top: 30px;
+}
+
