@@ -47,6 +47,7 @@
   <link href="css/style-test.css" rel="stylesheet">
   <link href="css/style2.css" rel="stylesheet">
   <link href="css/isotope.css" rel="stylesheet">
+  <link href="css/productos.css" rel="stylesheet">
 
 </head>
 
