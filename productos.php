@@ -23,16 +23,25 @@
 
 
 
-                <nav id="filter" class="col-md-12 text-center">
-                  <ul>
-                    <li><a href="#" class="current btn-theme btn-small " data-filter="*">Todos</a></li>
-                    <li><a href="#" class="btn-theme btn-small" data-filter=".routers">Routers</a></li>
-                    <li><a href="#" class="btn-themebtn-small" data-filter=".redes">Redes</a></li>
-                    <li><a href="#" class="btn-theme btn-small" data-filter=".Antenas">Antenas</a></li>
-                 
+                <div id="filter" class="col-md-12 text-center">
+                  <ul >
 
+
+              
+
+               
+
+             
+
+               
+                  <a href="#" class="btn-theme btn-small current  " data-filter="*">todos</a></>
+                    <a href="#" class="btn-theme btn-small" data-filter=".redes">Redes</a></>
+                   <a href="#" class="btn-theme btn-small" data-filter=".res">otro</a></>
+                    <a href="#" class="btn-theme btn-small" data-filter=".Antenas">Antenas</a></>
+                 
+                
                   </ul>
-                </nav>
+                </div>
 
 
 
@@ -80,49 +89,10 @@ Router Huawei AX3 Quad-Core blanco 100V/240V
                         </div>
                       </article>
 
-                      
-
-                      
-                      <article class="col-md-3 isotopeItem redes">
-                        <div class="productos-item">
-                        <div class="item-img" >  
-                          <img src="img/router.svg" alt="">
-                          
-                      </div>
-
-                      <div class="nombre-producto" >
-                      Nombre
-                      </div>
-                      <div class="modelo-prducto" >
-                     Modelo :  <strong class="det-bs-itm" > goofof </strong>
-                      </div>
-                      <div class="marca-producto" >
-                        Marca :  <strong class="det-bs-itm" > goofof </strong>
-                      </div>
-                      <div class="detalles-producto" >
-                       
-Imagen 2 de 4 de Router Huawei AX3 Quad-Core blanco 100V/240V <br>
-Imagen 3 de 4 de Router Huawei AX3 Quad-Core blanco 100V/240V <br>
-Imagen 4 de 4 de Router Huawei AX3 Quad-Core blanco 100V/240V <br>
-Nuevo  |  7702 vendidos
-Router Huawei AX3 Quad-Core blanco 100V/240V
-491
-                      </div>
-                      <div class="precio-producto" >
-                      <strong class="det-bs-itm" >precio </strong>
-                      </div>
-
-                             
-
-
-
-                       
-                        
-                        </div>
-                      </article>
 
 
                       
+
                       <article class="col-md-3 isotopeItem redes">
                         <div class="productos-item">
                         <div class="item-img" >  
@@ -131,7 +101,7 @@ Router Huawei AX3 Quad-Core blanco 100V/240V
                       </div>
 
                       <div class="nombre-producto" >
-                      Nombre
+                         <a>  Nombre  royute  Nombre  royute  </a>
                       </div>
                       <div class="modelo-prducto" >
                      Modelo :  <strong class="det-bs-itm" > goofof </strong>
@@ -140,13 +110,10 @@ Router Huawei AX3 Quad-Core blanco 100V/240V
                         Marca :  <strong class="det-bs-itm" > goofof </strong>
                       </div>
                       <div class="detalles-producto" >
+
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti enim illum ab nisi amet itaque accusamus reiciendis, delectus dignissimos qui!
                        
-Imagen 2 de 4 de Router Huawei AX3 Quad-Core blanco 100V/240V <br>
-Imagen 3 de 4 de Router Huawei AX3 Quad-Core blanco 100V/240V <br>
-Imagen 4 de 4 de Router Huawei AX3 Quad-Core blanco 100V/240V <br>
-Nuevo  |  7702 vendidos
-Router Huawei AX3 Quad-Core blanco 100V/240V
-491
+
                       </div>
                       <div class="precio-producto" >
                       <strong class="det-bs-itm" >precio </strong>
@@ -160,211 +127,10 @@ Router Huawei AX3 Quad-Core blanco 100V/240V
                         
                         </div>
                       </article>
-
 
                       
-                      <article class="col-md-3 isotopeItem redes">
-                        <div class="productos-item">
-                        <div class="item-img" >  
-                          <img src="img/router.svg" alt="">
-                          
-                      </div>
-
-                      <div class="nombre-producto" >
-                      Nombre
-                      </div>
-                      <div class="modelo-prducto" >
-                     Modelo :  <strong class="det-bs-itm" > goofof </strong>
-                      </div>
-                      <div class="marca-producto" >
-                        Marca :  <strong class="det-bs-itm" > goofof </strong>
-                      </div>
-                      <div class="detalles-producto" >
-                       
-Imagen 2 de 4 de Router Huawei AX3 Quad-Core blanco 100V/240V <br>
-Imagen 3 de 4 de Router Huawei AX3 Quad-Core blanco 100V/240V <br>
-Imagen 4 de 4 de Router Huawei AX3 Quad-Core blanco 100V/240V <br>
-Nuevo  |  7702 vendidos
-Router Huawei AX3 Quad-Core blanco 100V/240V
-491
-                      </div>
-                      <div class="precio-producto" >
-                      <strong class="det-bs-itm" >precio </strong>
-                      </div>
-
-                             
-
-
-
-                       
-                        
-                        </div>
-                      </article>
-
 
                       
-                      <article class="col-md-3 isotopeItem redes">
-                        <div class="productos-item">
-                        <div class="item-img" >  
-                          <img src="img/router.svg" alt="">
-                          
-                      </div>
-
-                      <div class="nombre-producto" >
-                      Nombre
-                      </div>
-                      <div class="modelo-prducto" >
-                     Modelo :  <strong class="det-bs-itm" > goofof </strong>
-                      </div>
-                      <div class="marca-producto" >
-                        Marca :  <strong class="det-bs-itm" > goofof </strong>
-                      </div>
-                      <div class="detalles-producto" >
-                       
-Imagen 2 de 4 de Router Huawei AX3 Quad-Core blanco 100V/240V <br>
-Imagen 3 de 4 de Router Huawei AX3 Quad-Core blanco 100V/240V <br>
-Imagen 4 de 4 de Router Huawei AX3 Quad-Core blanco 100V/240V <br>
-Nuevo  |  7702 vendidos
-Router Huawei AX3 Quad-Core blanco 100V/240V
-491
-                      </div>
-                      <div class="precio-producto" >
-                      <strong class="det-bs-itm" >precio </strong>
-                      </div>
-
-                             
-
-
-
-                       
-                        
-                        </div>
-                      </article>
-
-
-                      <article class="col-md-3 isotopeItem redes">
-                        <div class="productos-item">
-                        <div class="item-img" >  
-                          <img src="img/router.svg" alt="">
-                          
-                      </div>
-
-                      <div class="nombre-producto" >
-                      Nombre
-                      </div>
-                      <div class="modelo-prducto" >
-                     Modelo :  <strong class="det-bs-itm" > goofof </strong>
-                      </div>
-                      <div class="marca-producto" >
-                        Marca :  <strong class="det-bs-itm" > goofof </strong>
-                      </div>
-                      <div class="detalles-producto" >
-                       
-Imagen 2 de 4 de Router Huawei AX3 Quad-Core blanco 100V/240V <br>
-Imagen 3 de 4 de Router Huawei AX3 Quad-Core blanco 100V/240V <br>
-Imagen 4 de 4 de Router Huawei AX3 Quad-Core blanco 100V/240V <br>
-Nuevo  |  7702 vendidos
-Router Huawei AX3 Quad-Core blanco 100V/240V
-491
-                      </div>
-                      <div class="precio-producto" >
-                      <strong class="det-bs-itm" >precio </strong>
-                      </div>
-
-                             
-
-
-
-                       
-                        
-                        </div>
-                      </article>
-
-
-
-
-                      <article class="col-md-3 isotopeItem redes">
-                        <div class="productos-item">
-                        <div class="item-img" >  
-                          <img src="img/router.svg" alt="">
-                          
-                      </div>
-
-                      <div class="nombre-producto" >
-                      Nombre
-                      </div>
-                      <div class="modelo-prducto" >
-                     Modelo :  <strong class="det-bs-itm" > goofof </strong>
-                      </div>
-                      <div class="marca-producto" >
-                        Marca :  <strong class="det-bs-itm" > goofof </strong>
-                      </div>
-                      <div class="detalles-producto" >
-                       
-Imagen 2 de 4 de Router Huawei AX3 Quad-Core blanco 100V/240V <br>
-Imagen 3 de 4 de Router Huawei AX3 Quad-Core blanco 100V/240V <br>
-Imagen 4 de 4 de Router Huawei AX3 Quad-Core blanco 100V/240V <br>
-Nuevo  |  7702 vendidos
-Router Huawei AX3 Quad-Core blanco 100V/240V
-491
-                      </div>
-                      <div class="precio-producto" >
-                      <strong class="det-bs-itm" >precio </strong>
-                      </div>
-
-                             
-
-
-
-                       
-                        
-                        </div>
-                      </article>
-
-
-
-
-
-
-                      <article class="col-md-3 isotopeItem redes">
-                        <div class="productos-item">
-                        <div class="item-img" >  
-                          <img src="img/router.svg" alt="">
-                          
-                      </div>
-
-                      <div class="nombre-producto" >
-                      Nombre
-                      </div>
-                      <div class="modelo-prducto" >
-                     Modelo :  <strong class="det-bs-itm" > goofof </strong>
-                      </div>
-                      <div class="marca-producto" >
-                        Marca :  <strong class="det-bs-itm" > goofof </strong>
-                      </div>
-                      <div class="detalles-producto" >
-                       
-Imagen 2 de 4 de Router Huawei AX3 Quad-Core blanco 100V/240V <br>
-Imagen 3 de 4 de Router Huawei AX3 Quad-Core blanco 100V/240V <br>
-Imagen 4 de 4 de Router Huawei AX3 Quad-Core blanco 100V/240V <br>
-Nuevo  |  7702 vendidos
-Router Huawei AX3 Quad-Core blanco 100V/240V
-491
-                      </div>
-                      <div class="precio-producto" >
-                      <strong class="det-bs-itm" >precio </strong>
-                      </div>
-
-                             
-
-
-
-                       
-                        
-                        </div>
-                      </article>
-
-
 
 
 
