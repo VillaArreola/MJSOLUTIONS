@@ -5,6 +5,7 @@ CREATE TABLE productos(
 id          int(255) auto_increment not null,
 categoria  varchar(50) not null,
 nombre      varchar(100) not null,
+
 marca   varchar(100) ,
 modelo       varchar(100) ,
 detalles   text  ,
