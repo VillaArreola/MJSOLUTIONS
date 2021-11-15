@@ -41,7 +41,19 @@
           -->
           <li><a href="capacitacion.php">Capacitaciones</a></li>
           <li><a href="acerca.php">Acerca de</a></li>
-          <li><a href="registro.php">login</a></li>
+          <li><a href="login.php">login</a></li>
+
+          
+          <li><a href="registro.php">registro</a></li>
+           
+<?php if(isset($_SESSION['usuario'])): ?>
+  
+		<div id="usuario-logueado" class="bloque">
+			<h3>Bienvenido, <?=$_SESSION['usuario']['nombre'].' '.$_SESSION['usuario']['apellidos'];?></h3>
+			<!--botones-->
+			
+		</div>
+	<?php endif; ?>
 
 
         

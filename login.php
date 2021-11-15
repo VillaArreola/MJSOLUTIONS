@@ -4,52 +4,73 @@
 
 
 
-<div class="registro-cont" >   
+
+<div class="login-cont" >   
+
+
     
-<form action="correo.php" method="POST" >
-        <div class="form">
-            <h1>Registro</h1>
+    <form action="php/login.php" method="POST" >
+        
+            <div class="form">
+                <h1>Registro</h1>
 
 
+                <?php if(isset($_SESSION['error_login'])): ?>
+			<div class="alerta alerta-error">
+				<?=$_SESSION['error_login'];?>
+			</div>
+        
+		<?php endif; ?>
 
 
-            <div class="grupo">
-                <input type="text" name="nombre" id="" required><span class="barra"></span>
-                <label>Nombre</label>
-            </div>
-
-            
-            <div class="grupo">
-                <input type="text" name="nombre" id="" required><span class="barra"></span>
-                <label>Apellidos</label>
-            </div>
-
-
-            <div class="grupo">
-                <input type="email" name="email" id="" required ><span class="barra"></span>
-                <label>Email</label>
-            </div>
-
-
-         
-            <div class="grupo">
-                <input type="tel" name="tel" id=""pattern="[0-9]{10}" maxlength="10"><span class="barra"></span>
-                <label>Tel</label>
-            </div>
-
-
-           
-
-            <div class="grupo">
-                <input type="password" name="pass" id="" required><span class="barra"></span>
-                <label>Contraseña</label>
-            <button type="submit">Enviar</button>
+    
+    
+    
+    
+                <div class="grupo">
+                
+                <div class="grupo">
+                    <input type="email" name="email" id="" required ><span class="barra"></span>
+                    <label>Email</label>
+                </div>
+             
+    
+    
+    
+               
+    
+                <div class="grupo">
+                    <input type="password" name="password" id="" required><span class="barra"></span>
+                    <label>Contraseña</label>
+                
+    
+                       </div>
+                       
+                    
+                <button type="submit" name="submit"  >Registrar</button>
+    
+                </form>
+    
+     
+    
         </div>
-    </form>
+    
+        </div>
+  
 
-    </div>
 
-    </div>
+
+
+
+
+
+
+
+       
+
+
+		
+
 
   
 <?php include 'includes/footer.php' ?>

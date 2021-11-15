@@ -5,6 +5,29 @@
 <?php require_once 'php/helpers.php'; ?>
 
 
+
+
+
+
+
+
+
+
+
+<div class="container" >
+<div class="row" >
+<div id="login-register"  class="col-md-12 text-center" >  
+    <div id="filter"  >
+
+<a href="#" class="btn-theme btn-small" data-filter=".login-cont">Iniciar session</a></>
+ <button  class=" col-md-3 " data-filter=".registro-cont" >Registrarse </button>
+ </div> 
+
+</div>
+</div>
+</div>
+
+
 <div class="registro-cont" >   
     
 <form action="php/registro.php" method="POST" >
@@ -74,13 +97,13 @@
                    <div class="grupo">
                 <input type="password" name="password2" id="" required><span class="barra"></span>
                 <label>confirmar contraeña</label>
-                <?php echo isset($_SESSION['errores']) ? mostrarError($_SESSION['errores'], 'password2') : ''; ?>
+        </div>
+          <?php echo isset($_SESSION['errores']) ? mostrarError($_SESSION['errores'], 'password2') : ''; ?>
 
                 
             <button type="submit" name="submit"  >Registrar</button>
 
-        </div>
-    </form>
+            </form>
 
     <?php borrarErrores(); ?>
 
@@ -88,5 +111,21 @@
 
     </div>
 
+
+
+
+    
+
+
   
+
+
+
+
+
+
+
+
+
+
 <?php include 'includes/footer.php' ?>
