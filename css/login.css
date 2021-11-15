@@ -1,0 +1,16 @@
+#body-registro {
+    background: url(../img/bg-min.jpg) top center fixed;
+    background-size: cover;
+    color: #666666;
+    font-family: "Open Sans", sans-serif;
+  }
+
+.registro-cont form {
+width:40%;
+margin:5% auto;
+
+}
+
+.f01{
+    width:100%;
+}

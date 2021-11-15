@@ -41,6 +41,7 @@
           -->
           <li><a href="capacitacion.php">Capacitaciones</a></li>
           <li><a href="acerca.php">Acerca de</a></li>
+          <li><a href="registro.php">login</a></li>
 
 
         

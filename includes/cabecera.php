@@ -1,3 +1,8 @@
+
+<?php require_once('php/conexion.php'); ?>
+
+
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -48,6 +53,7 @@
   <link href="css/style2.css" rel="stylesheet">
   <link href="css/isotope.css" rel="stylesheet">
   <link href="css/productos.css" rel="stylesheet">
+  <link href="css/login.css" rel="stylesheet">
 
 </head>
 
