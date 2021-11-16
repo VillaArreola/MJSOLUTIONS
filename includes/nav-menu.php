@@ -47,7 +47,7 @@
   
             <li class="menu-has-children"><a href="#"> Bienvenido <?=$_SESSION['usuario']['nombre'];?></a>
             <ul>
-                  <li><a href="#">Cerrar session</a></li>
+                  <li><a href="cerrar.php">Cerrar session</a></li>
             </ul>
             </li>
 
