@@ -1,4 +1,11 @@
+
+
 <?php
+require_once '../php/conexion.php';
+
+
+
+
 
 function mostrarError($errores, $campo){
 	$alerta = '';
@@ -31,5 +38,7 @@ function borrarErrores(){
 }
 
 
-// validar captcha
+
+
+
 
