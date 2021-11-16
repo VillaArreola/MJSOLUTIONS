@@ -41,25 +41,21 @@
           -->
           <li><a href="capacitacion.php">Capacitaciones</a></li>
           <li><a href="acerca.php">Acerca de</a></li>
-          <li><a href="login.php">login</a></li>
-
-          
-          <li><a href="registro.php">registro</a></li>
-           
-<?php if(isset($_SESSION['usuario'])): ?>
   
-		<div id="usuario-logueado" class="bloque">
-			<h3>Bienvenido, <?=$_SESSION['usuario']['nombre'].' '.$_SESSION['usuario']['apellidos'];?></h3>
-			<!--botones-->
-			
-		</div>
-	<?php endif; ?>
+       
+        <?php if(isset($_SESSION['usuario'])): ?>
+  
+            <li class="menu-has-children"><a href="#"> Bienvenido <?=$_SESSION['usuario']['nombre'];?></a>
+            <ul>
+                  <li><a href="#">Cerrar session</a></li>
+            </ul>
+            </li>
 
+         <?php endif; ?>
 
-        
-
-
-         <!-- <li><a href="login.php">iniciar sesion</a></li> --->
+         <?php if(!isset($_SESSION['usuario'])): ?>
+            <li><a href="login.php">Iniciar Sesion</a></li>
+          <?php endif; ?>
         </ul>
       </nav>
       <!-- #nav-menu-container -->
