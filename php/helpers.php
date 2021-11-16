@@ -29,3 +29,7 @@ function borrarErrores(){
 	
 	return $borrado;
 }
+
+
+// validar captcha
+

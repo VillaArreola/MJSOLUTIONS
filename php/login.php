@@ -40,21 +40,30 @@ if(isset($_POST)){
 		if($verify){
 			// Utilizar una sesión para guardar los datos del usuario logueado
 			$_SESSION['usuario'] = $usuario;
-			header('Location: ../login.php');
-			echo '<h1>Login correcto</h1>';
+		
 
 			
 		}else{
 			// Si algo falla enviar una sesión con el fallo
 			$_SESSION['error_login'] = "Usuario o contraseña Incorrectos!!";
+			
+       
 		}
 	}else{
 		// mensaje de error
 		$_SESSION['error_login'] = "correo desconocido!!";
+		
+        
 	}
 	
 }
 
-// Redirigir al index.php
-// Redirigir al index.php
-header('Location: ../login.php');
+//terminar session error o redireccionar
+
+if  (isset($_SESSION['error_login'])){
+	header('Location: ../login.php');
+}else{
+	header('Location: ../index.php');
+}
+
+

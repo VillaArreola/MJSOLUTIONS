@@ -1,61 +1,80 @@
 
+<script type="text/javascript">
+	
+	function validar(){
+		var copia = document.getElementById("txtcopia").value;
+		var captcha = document.getElementById("captcha").value;
+				
+		if(copia == captcha){
+			window.open("http://www.google.com.pe");
+		}else{
 
- <?php include 'includes/cabecera.php'?>
+      button.disabled = true;
 
- <head>
-  
+		}
+	}
 
-  <!-- csss -->
- 
-
- 
-
-
-</head>
-
- <?php include 'includes/nav-menu.php'?>
-
-
-
-
- 
+</script>
 
 
 
- <nav id="filter" class="col-md-12 text-center">
-                  <ul class="resp-productos-filter" >
+<?php
+
+//numeros y letras aleatorios
+
+		function codigo_captcha(){
+      $numero1 = rand(0,9);
+      $letra1 = chr(rand(65,90));
+      $numero2 = rand(0,9);
+      $letra2 = chr(rand(65,90));
+      $numero3 = rand(0,9);
+      $letra3 = chr(rand(65,90));
+      
 
 
-                    <li class="resp-productos-filter"><a href="#" class="current btn-theme btn-small   " data-filter="*">  Todos </a></li>
-                    <li class="resp-productos-filter" ><a href="#" class="btn-theme btn-small" data-filter=".routers">Routers</a></li>
+     
+      $codigo = $numero1.$letra1.$numero2.$letra2.$numero3.$letra3;
+      
+      return $codigo;
+    }
 
-                    <li class="resp-productos-filter" ><a href="#" class="btn-theme btn-small" data-filter=".routers">     </a></li>
+      
 
-
-                    <li class="resp-productos-filter"><a href="#" class="btn-themebtn-small" data-filter=".redes">Redes</a></li>
-                    <li class="resp-productos-filter"> <a href="#" class="btn-theme btn-small" data-filter=".Antenas">Antenas</a></li>
-                 
-
-                  </ul>
-                </nav>
-
-
-
-
-
-
-
-
-
-
+?>
 
 
 
+	<tr>
+		<td>
+			<input type="text" name="txtcopia" id="txtcopia" size="10   onselectstart = "return false;">
+		</td>
+		<td>
+			<input type="text" name="captcha"   id="captcha" value=<?php echo codigo_captcha(); ?> class="captcha" size="4" readonly>
+		</td>
+	</tr>		
+	<tr>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td colspan="2" align="center">
+			<input type="button" name="entrar" id="entrar" value="SIGUIENTE" class="boton" onclick="validar();">
+		</td>
+	</tr>
+	</table>
+</center>
+
+</body>
+</html>
 
 
- 
 
- <?php include 'includes/footer.php'?>
+
+
+
+
+
+
+
 
 
 
