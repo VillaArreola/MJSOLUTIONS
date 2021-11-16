@@ -1,7 +1,7 @@
 <?php include 'includes/cabecera.php' ?>
 <div id="body-inicio" >
 <?php include 'includes/nav-menu.php' ?>
-<?php require_once 'php/helpers.php'; ?>
+
 
 
 
@@ -37,7 +37,7 @@
     <form action="php/login.php" method="POST" >
         
             <div class="form">
-                <h1>Registro</h1>
+                <h1>Iniciar Session</h1>
 
 
                 <?php if(isset($_SESSION['error_login'])): ?>
@@ -52,7 +52,7 @@
     
     
     
-                <div class="grupo">
+              
                 
                 <div class="grupo">
                     <input type="email" name="email" id="" required  ><span class="barra"></span>
@@ -77,16 +77,31 @@
 
 
 
-                <button type="submit" name="submit">     Registrar    </button>
+                <button type="submit" name="submit">    Iniciar   </button>
+                
+              <div>
+                <h5>Si no tiene un cuenta <a href="registro.php"> &nbsp; &nbsp; <strong>   Registrarse </strong></a></h5>
+                <a href="rec.php"> &nbsp; &nbsp;   olvide mi contraseña </strong></a>
+            </div>
+
+              </div>
+     
+
+      
+
+
     
                 </form>
     
+        
      
     
         </div>
+
+      
+
+
     
-        </div>
-  
 
 
 
@@ -104,3 +119,6 @@
 
   
 <?php include 'includes/footer.php' ?>
+
+</div>
+  

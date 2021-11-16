@@ -14,18 +14,6 @@
 
 
 
-<div class="container" >
-<div class="row" >
-<div id="login-register"  class="col-md-12 text-center" >  
-    <div id="filter"  >
-
-<a href="#" class="btn-theme btn-small" data-filter=".login-cont">Iniciar session</a></>
- <button  class=" col-md-3 " data-filter=".registro-cont" >Registrarse </button>
- </div> 
-
-</div>
-</div>
-</div>
 
 
 <div class="registro-cont" >   
@@ -53,7 +41,7 @@
 
 
         <div class="form">
-            <h1>Registro</h1>
+            <h1>Registro        </h1>    
 
 
 
@@ -104,6 +92,11 @@
             <button type="submit" name="submit"  >Registrar</button>
 
             </form>
+
+            <div>
+                <h5>Si ya tiene un cuenta <a href="login.php"> &nbsp; &nbsp; <strong>   Iniciar session </strong></a></h5>
+             
+            </div>
 
     <?php borrarErrores(); ?>
 

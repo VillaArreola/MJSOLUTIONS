@@ -54,7 +54,12 @@
          <?php endif; ?>
 
          <?php if(!isset($_SESSION['usuario'])): ?>
-            <li><a href="login.php">Iniciar Sesion</a></li>
+            <li><a href="login.php">Iniciar Sesion</a>  </li>
+
+
+
+
+
           <?php endif; ?>
         </ul>
       </nav>

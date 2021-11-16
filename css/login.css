@@ -16,6 +16,7 @@ margin:5% auto;
 .login-cont form {
   width:40%;
   margin:5% auto;
+
   
   }
   
@@ -38,3 +39,32 @@ margin:5% auto;
 .alerta-error{
   background: red;
 }
+
+
+
+@media screen and (max-width: 1000px) {
+  .registro-cont form {
+    width:70%;
+  }
+  .login-cont form {
+    width:70%;
+  }
+}
+  
+
+
+
+
+@media screen and (max-width: 800px) {
+  .registro-cont form {
+    width:90%;
+  }
+  .login-cont form {
+    width:90%;
+  }
+}
+  
+
+
+
+
