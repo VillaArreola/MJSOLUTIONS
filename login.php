@@ -81,7 +81,7 @@
                 
               <div>
                 <h5>Si no tiene un cuenta <a href="registro.php"> &nbsp; &nbsp; <strong>   Registrarse </strong></a></h5>
-                <a href="rec.php"> &nbsp; &nbsp;   olvide mi contraseña </strong></a>
+                <a href="olvide_pass.php"> &nbsp; &nbsp;   olvide mi contraseña </strong></a>
             </div>
 
               </div>
